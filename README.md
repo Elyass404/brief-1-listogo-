@@ -4,7 +4,7 @@
 ## Overview
 ------------
 
-* Briefly describe the project and its purpose
+* The website listogo, is a website that help individuals to find places to visit, real estate to rent, healthcare centers, and much more, to let the individual benefit his time without wasting it searching for a place to get to in the city
 
 ## Features
 ------------
