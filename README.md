@@ -9,45 +9,26 @@
 ## Features
 ------------
 
-* List the key features of your project
+* Searching 
+* Creating Account
+* Booking 
+* Online payment 
 
 ## Getting Started
 -----------------
 
-* Provide instructions on how to get started with your project
+* Fork this project and clone it to you machine, then install an IDE in order to edit the code.
 
-## Requirements
--------------
-
-* List any dependencies or requirements needed to use your project
-
-## Installation
+## Achitecture
 ------------
 
-* Provide instructions on how to install your project
+the project includes different files in different types: 
+* images ;
+* Fonts;
+* HTML files;
+* CSS files: 
+  -Vanilla Css
+  -Bootstrap
+* Js files
+  
 
-## Usage
------
-
-* Provide examples of how to use your project
-
-## Contributing
-------------
-
-* Provide guidelines on how to contribute to your project
-
-## License
--------
-
-* Specify the license under which your project is released
-
-## Authors
--------
-
-* List the authors of your project
-
-## Acknowledgments
---------------
-
-* Acknowledge any third-party libraries or resources used in your project
------------------------
