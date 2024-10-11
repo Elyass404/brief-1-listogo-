@@ -44,6 +44,7 @@
         
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
+		<meta name="description" content="search for anything, and find it">
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,6 +57,11 @@
     </head>
 	
 	<body>
+
+
+
+
+		
 		<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -67,21 +73,21 @@
 					<div class="header-top-left">
 						<ul>
 							<li class="select-opt">
-								<select name="language" id="language">
-									<option value="default">EN</option>
-									<option value="French">FR</option>
-									<option value="Arabic">AB</option>
+								<label for="currency" style="color: brown">Language:</label><select name="language" id="language" aria-label="language">
+									<option value="default" aria-label="english">EN</option>
+									<option value="French" aria-label="french">FR</option>
+									<option value="Arabic" aria-label="arabic ">AB</option>
 								</select>
 							</li>
 							<li class="select-opt">
-								<select name="currency" id="currency">
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="mad">MAD</option>
+								<label for="currency" style="color: brown">Currency:</label><select name="currency" id="currency" aria-label="currency">
+									<option value="usd" aria-label="us-dollar">USD</option>
+									<option value="euro" aria-label="euro ">Euro</option>
+									<option value="mad" aria-label="moroccan-dirham">MAD</option>
 								</select>
 							</li>
 							<li class="select-opt">
-								<a href="#"><span class="lnr lnr-magnifier"></span></a>
+								<a href="https://www.google.com/" aria-label="magnifier"><span class="lnr lnr-magnifier"></span></a>
 							</li>
 						</ul>
 					</div>
@@ -105,6 +111,7 @@
 					
 		</header><!--/.header-top-->
 		<!--header-top end -->
+
 		<!-- top-area Start -->
 		<section class="top-area">
 			<div class="header-area">
@@ -115,7 +122,7 @@
 
 			            <!-- Start Header Navigation -->
 			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-label="navbar-collapse">
 			                    <i class="fa fa-bars"></i>
 			                </button>
 			                <a class="navbar-brand" href="index.html">listo<span>go</span></a>
@@ -158,7 +165,7 @@
                         <div class="single-explore-img">
                             <img src="assets/images/explore/e1.jpg" alt="explore image">
                             <div class="single-explore-img-info">
-                                <button onclick="window.location.href='#'">best rated</button>
+                                <button onclick="window.location.href='https://en.wikipedia.org/wiki/Ouarzazate'" aria-label="best-rated">best rated</button>
                                 <div class="single-explore-image-icon-box">
                                     <ul>
                                         <li>
@@ -176,15 +183,15 @@
                             </div>
                         </div>
                         <div class="single-explore-txt bg-theme-1">
-                            <h2><a href="#">tommy helfinger bar</a></h2>
+                            <h2><a href="https://en.wikipedia.org/wiki/Ouarzazate" aria-label="tommy-helfiger-bar">tommy helfinger bar</a></h2>
                             <p class="explore-rating-price">
                                 <span class="explore-rating">5.0</span>
-                                <a href="#"> 10 ratings</a> 
+                                <a href="https://en.wikipedia.org/wiki/Ouarzazate"> 10 ratings</a> 
                                 <span class="explore-price-box">
                                     form
                                     <span class="explore-price">5$-300$</span>
                                 </span>
-                                 <a href="#">resturent</a>
+                                 <a href="https://en.wikipedia.org/wiki/Ouarzazate">resturent</a>
                             </p>
                             <div class="explore-person">
                                 <div class="row">
@@ -205,13 +212,13 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn" onclick="window.location.href='#'">close now</button>
+                                        <button class="close-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Ouarzazate'">close now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
-                                            <a href="#"><i data-feather="map-pin"></i></a>
-                                            <a href="#"><i data-feather="upload"></i></a>
-                                            <a href="#"><i data-feather="heart"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="map-pin"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="upload"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="heart"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -224,7 +231,7 @@
                         <div class="single-explore-img">
                             <img src="assets/images/explore/e2.jpg" alt="explore image">
                             <div class="single-explore-img-info">
-                                <button onclick="window.location.href='#'">featured</button>
+                                <button onclick="window.location.href='https://en.wikipedia.org/wiki/Ouarzazate'">featured</button>
                                 <div class="single-explore-image-icon-box">
                                     <ul>
                                         <li>
@@ -242,21 +249,21 @@
                             </div>
                         </div>
                         <div class="single-explore-txt bg-theme-2">
-                            <h2><a href="#">swim and dine resort</a></h2>
+                            <h2><a href="https://en.wikipedia.org/wiki/Ouarzazate">swim and dine resort</a></h2>
                             <p class="explore-rating-price">
                                 <span class="explore-rating">4.5</span>
-                                <a href="#"> 8 ratings</a> 
+                                <a href="https://en.wikipedia.org/wiki/Ouarzazate"> 8 ratings</a> 
                                 <span class="explore-price-box">
                                     form
                                     <span class="explore-price">50$-500$</span>
                                 </span>
-                                 <a href="#">hotel</a>
+                                 <a href="https://en.wikipedia.org/wiki/Ouarzazate">hotel</a>
                             </p>
                             <div class="explore-person">
                                 <div class="row">
                                     <div class="col-sm-2">
                                         <div class="explore-person-img">
-                                            <a href="#">
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate">
                                                 <img src="assets/images/explore/person.png" alt="explore person">
                                             </a>
                                         </div>
@@ -275,9 +282,9 @@
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
-                                            <a href="#"><i data-feather="map-pin"></i></a>
-                                            <a href="#"><i data-feather="upload"></i></a>
-                                            <a href="#"><i data-feather="heart"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="map-pin"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="upload"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="heart"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +329,7 @@
                                 <div class="row">
                                     <div class="col-sm-2">
                                         <div class="explore-person-img">
-                                            <a href="#">
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate">
                                                 <img src="assets/images/explore/person.png" alt="explore person">
                                             </a>
                                         </div>
@@ -337,13 +344,13 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn" onclick="window.location.href='#'">close now</button>
+                                        <button class="close-btn" onclick="window.location.href='https://en.wikipedia.org/wiki/Ouarzazate'">close now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
-                                            <a href="#"><i data-feather="map-pin"></i></a>
-                                            <a href="#"><i data-feather="upload"></i></a>
-                                            <a href="#"><i data-feather="heart"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="map-pin"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="upload"></i></a>
+                                            <a href="https://en.wikipedia.org/wiki/Ouarzazate"><i data-feather="heart"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -557,7 +564,8 @@
 <!--explore end -->
 
         
-       <!--footer start-->
+
+		<!--footer start-->
 		<footer id="footer"  class="footer">
 			<div class="container">
 				<div class="footer-menu">
@@ -574,7 +582,7 @@
 			                    <li ><a href="reviews.html">review</a></li>
 			                    <li ><a href="blog.html">blog</a></li>
 			                    <li ><a href="contact.html">contact</a></li>
-			                    <li class=" scroll"><a href="#contact">my account</a></li>
+			                    <li class=><a href="contact.html">my account</a></li>
 			                </ul><!--/.nav -->
 			           	</div>
 		           </div>
@@ -589,10 +597,10 @@
 						<div class="col-sm-7">
 							<div class="footer-social">
 								<span><i class="fa fa-phone"> +212 (222) 777 8888</i></span>
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-google-plus"></i></a>
+								<a href="https://web.facebook.com/" aria-label="facebook-page"><i class="fa fa-facebook"></i></a>	
+								<a href="https://x.com/" aria-label="twitter-page"  ><i class="fa fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/"aria-label="linkedin-page" ><i class="fa fa-linkedin"></i></a>
+								<a href="https://www.google.com/" aria-label="google-page" ><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -612,7 +620,7 @@
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<!-- <script src="assets/js/jquery.js"></script> -->
+		<script src="assets/js/jquery.js"></script>
         
         <!--modernizr.min.js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
